@@ -1,0 +1,106 @@
+body{
+  background: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+.logo{
+  width: 250px;
+  display:block;
+  margin: 90px auto;
+  text-align:center;
+}
+.text-logo{
+  font-size: 30px;
+  color: #00ff00;
+  display: block;
+  text-align: center;
+  margin: -90px auto;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titolone{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.subtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.subtitle2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 1.5;
+}
+#container{
+  margin: -100px 0 0 -150px;
+  height: 850px;
+  width: 1200px;
+  position: absolute;
+  top: 15%;
+  left: 27%;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+#navigator{
+  width: 1000px;
+  height: 50px;
+  position: absolute;
+  top: 41%;
+  left: 23%;
+  margin: -100px 0 0 -175px;
+  background-color: #00ff00;
+  opacity: 1;
+}
+#pulsanti{
+  margin: -100px 0 0 -175px;
+  position: absolute;
+  top: 43%;
+  left: 52%;
+}
+#barra1{
+  width: 350px;
+  height: 30px;
+  position: absolute;
+  background-color: orange;
+  border-radius: 10px;
+}
+#barra2{
+  width: 590px;
+  height: 30px;
+  position: absolute;
+  background-color: #00ff00;
+  border-radius: 10px;
+}
+#barra3{
+  width: 160px;
+  height: 30px;
+  position: absolute;
+  background-color: red;
+  border-radius: 10px;
+}
+.titolo{
+  position: absolute;
+  top: 38%;
+  left: 9%;
+}
+.titolo2{
+  position: absolute;
+  top: 55%;
+  left: 9%;
+}
+.titolo3{
+  position: absolute;
+  top: 72%;
+  left: 9%;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
